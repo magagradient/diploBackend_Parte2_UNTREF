@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Acortador de URLs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/url.png" type="image/png">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Acortador de URLs</h1>
+            <img src="images/url.png" alt="Acortador de URLs" title="https://pico.li/">
+        </div>
+        <div class="class-codigo">
+            <span class="subtitulo">https://pico.li/</span>
+            <input type="text" id="codigo" 
+                   maxlength="10" 
+                   placeholder="tu-link-favorito" 
+                   required 
+                   autocomplete="off" 
+                   spellcheck="false"
+            >
+        </div>
+        <p>ó</p>
+        <div class="class-acortar">
+            <p>Ingresa la URL que deseas acortar:</p>
+            <input type="sitio" id="sitio" 
+                   placeholder="ejemplo: https://www.misitio.com/nosotros" 
+                   required 
+                   autocomplete="off" 
+                   spellcheck="false"
+            >
+            <button id="acortar">ACORTAR</button>
+        </div>
+    </div>
+</body>
+</html>
